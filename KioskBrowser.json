@@ -1,0 +1,40 @@
+{
+    "title": "",
+    "homeUrl": "http://www.s592019.smrtp.ru",
+    "homeUrlInactivityTimeoutSec": 180,
+    "licenseCode": "62E2-BDDE-E771-584C-89E8-9DDB",
+    "isKioskEnabled": true,
+    "isAutoRunEnabled": false,
+    "primaryColor": "#323232",
+    "textColor": "#FFFFFF",
+    "isUseVirtualKeyboard": true,
+    "isPrinterBlocked": true,
+    "printerIsSilent": false,
+    "httpServerIsEnabled": false,
+    "httpServerSecret": null,
+    "httpServerHostname": "localhost",
+    "httpServerPort": 8080,
+    "antiBornPixelsIsEnabled": true,
+    "antiBornPixelsPadding": 10,
+    "scrollbarWidth": 17,
+    "isHeaderHidden": false,
+    "isBackHidden": false,
+    "isHomeHidden": false,
+    "isCloseHidden": true,
+    "injectBrowserStyle": null,
+    "langs": [
+        { "langCode": "ru", "isEnabled": true, "delta": 0 },
+        { "langCode": "en", "isEnabled": true, "delta": 1 }
+    ],
+    "rules": [
+        { "action": "allow", "delta": 0, "isEnabled": true, "url": "^about:blank$", "description": "allow blank" },
+        { "action": "allow", "delta": 1, "isEnabled": true, "url": "^https://kioskbrowser.elibsystem.ru/", "description": "allow kioskbrowser site" },
+        { "action": "deny", "delta": 2, "isEnabled": true, "url": "^file://*", "description": "deny file://*" },
+        { "action": "allow", "delta": 3, "isEnabled": true, "url": "^http", "description": "allow http and https" },
+        { "action": "allow", "delta": 4, "isEnabled": true, "url": "^https", "description": "allow https" },
+        { "action": "deny", "delta": 5, "isEnabled": false, "url": "*", "description": "deny all" },
+        { "action": "allow", "delta": 6, "isEnabled": true, "url": "*", "description": "allow all" }
+    ],
+    "isIgnoreCertificateErrors": true,
+    "failLoadPageDelay": 300
+}
