@@ -1,5 +1,5 @@
 {
-    "title": "",
+    "title": "Учим науке побеждать, воспитываем патриотов России",
     "homeUrl": "http://www.s592019.smrtp.ru",
     "homeUrlInactivityTimeoutSec": 180,
     "licenseCode": "62E2-BDDE-E771-584C-89E8-9DDB",
@@ -15,7 +15,7 @@
     "httpServerHostname": "localhost",
     "httpServerPort": 8080,
     "antiBornPixelsIsEnabled": true,
-    "antiBornPixelsPadding": 10,
+    "antiBornPixelsPadding": 5,
     "scrollbarWidth": 17,
     "isHeaderHidden": false,
     "isBackHidden": false,
