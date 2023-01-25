@@ -103,7 +103,7 @@ body {
 }
 
 .team .team_member p.role {
-    color: #7200cc;
+    color: #484848;
     margin: 12px 0;
     line-height: 20px;
     font-size: 16px;
@@ -154,13 +154,3 @@ body {
 img {
     border-radius: 8px;
 }
-
-/*#rcorners {*/
-/*    border-radius: 20px;*/
-/*    background-image: url(_img/paper.png);*/
-/*    background-position: center;*/
-/*    background-repeat: repeat;*/
-/*    padding: 100px;*/
-/*    width: 850px;*/
-/*    height: 590px;*/
-/*}*/
