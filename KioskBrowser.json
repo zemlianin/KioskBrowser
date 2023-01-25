@@ -1,13 +1,13 @@
 {
     "title": "Учим науке побеждать, воспитываем патриотов России",
     "homeUrl": "http://www.s592019.smrtp.ru",
-    "homeUrlInactivityTimeoutSec": 180,
+    "homeUrlInactivityTimeoutSec": 300,
     "licenseCode": "62E2-BDDE-E771-584C-89E8-9DDB",
     "isKioskEnabled": true,
     "isAutoRunEnabled": false,
     "primaryColor": "#323232",
     "textColor": "#FFFFFF",
-    "isUseVirtualKeyboard": true,
+    "isUseVirtualKeyboard": false,
     "isPrinterBlocked": true,
     "printerIsSilent": false,
     "httpServerIsEnabled": false,
@@ -15,7 +15,7 @@
     "httpServerHostname": "localhost",
     "httpServerPort": 8080,
     "antiBornPixelsIsEnabled": true,
-    "antiBornPixelsPadding": 5,
+    "antiBornPixelsPadding": 0,
     "scrollbarWidth": 17,
     "isHeaderHidden": false,
     "isBackHidden": false,
@@ -36,5 +36,5 @@
         { "action": "allow", "delta": 6, "isEnabled": true, "url": "*", "description": "allow all" }
     ],
     "isIgnoreCertificateErrors": true,
-    "failLoadPageDelay": 300
+    "failLoadPageDelay": 10
 }
